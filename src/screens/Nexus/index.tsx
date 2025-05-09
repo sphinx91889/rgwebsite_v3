@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "../../components/ui/button";
 import { Badge } from "../../components/ui/badge";
 import { useNavigate } from "react-router-dom";
+import Spline from '@splinetool/react-spline';
 import { Menu, X, Star as StarIcon, MailIcon, PhoneIcon } from "lucide-react";
 
 export const Nexus = (): JSX.Element => {
@@ -219,9 +220,24 @@ export const Nexus = (): JSX.Element => {
       `}</style>
 
       {/* Hero Section */}
-      <section className="pt-[235px] pb-24 px-4 md:px-8">
+      <section className="pt-[235px] pb-24 px-4 md:px-8 relative">
+        {/* Spline 3D Background */}
+        <div className="absolute inset-0 w-full h-full z-0">
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-white z-10 pointer-events-none" />
+          <Spline
+            scene="https://prod.spline.design/lzvICzHaYMk9L4FQ/scene.splinecode"
+            style={{
+              width: '100%',
+              height: '100%',
+              position: 'absolute',
+              pointerEvents: 'none',
+              minHeight: '800px'
+            }}
+          />
+        </div>
+
         <div className="max-w-[1280px] mx-auto">
-          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 relative z-10">
             <div className="w-full lg:w-1/2">
               <img
                 src="https://storage.googleapis.com/msgsndr/8ngdMjJjmckUW3DffAfv/media/681ceb898c83422a29b1d113.png"
