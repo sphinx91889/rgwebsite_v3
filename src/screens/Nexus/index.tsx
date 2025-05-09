@@ -225,7 +225,7 @@ export const Nexus = (): JSX.Element => {
         <div className="absolute inset-0 w-full h-full z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-white z-10 pointer-events-none" />
           <Spline
-            scene="https://prod.spline.design/lzvICzHaYMk9L4FQ/scene.splinecode"
+            scene="https://prod.spline.design/8sE0UyiScuNSidz1/scene.splinecode"
             style={{
               width: '100%',
               height: '100%',
