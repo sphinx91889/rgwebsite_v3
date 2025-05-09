@@ -55,6 +55,7 @@ export const Portfolio = (): JSX.Element => {
         description:
           "Vibe coder with multiple contracted builds for Insurance, Healthcare, Medical Spa, Roofing, Music Rights, Reputation Management industries.",
       },
+      link: "https://banvibecoders.com/",
     },
     {
       title: "FADE'EM UP",
