@@ -528,7 +528,7 @@ export const Nexus = (): JSX.Element => {
           <h2 className="text-4xl font-bold mb-6">
             Ready to Streamline Your Business?
           </h2>
-          <p className="text-2xl mb-4">Start Your 14-Day Free Trial Today</p>
+          <p className="text-2xl mb-4">Start Your 30-Day Free Trial Today</p>
           <p className="text-xl text-gray-600 mb-8">
             Join 100+ businesses already saving time and money with Nexus CRM
           </p>
